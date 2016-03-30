@@ -1,0 +1,19 @@
+<html>
+
+<head>
+  <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <h1>
+    This is hw5
+  </h1>
+  
+  <% for(var j=0; j < pics.length; j++){ %>
+  <img src="assets/images/<%= pics[j] %>" alt="圖片無法顯示" >
+  <p> ↑ pic <%= j%> ↑</p>
+  <% } %>
+  
+</body>
+
+</html>
