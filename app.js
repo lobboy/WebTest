@@ -15,7 +15,7 @@ app.use('/', function (req, res, next) {
 
 var htmlData =
 {
-	title: 'Cleaning Supplies',
+	title: 'This is hw5',
 	supplies:
 		['mop','broom','duster'],
 	pics:
